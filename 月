@@ -1,0 +1,10 @@
+<html>
+<script src="data.js"></script>
+<script src="search.js"></script>
+<script src="ui.js"></script>
+<body>
+       <input id="tofind" value="月"></input>
+       <button onClick="dosearch()">Search</button>
+       <div id="result"></div>
+ <body> 
+</html>
