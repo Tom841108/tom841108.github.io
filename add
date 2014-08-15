@@ -1,0 +1,18 @@
+<H1>Calculatate</H1>
+<input Id="o1" value="4"/>
+<input Id="o2" value="3"/>
+<button onClick="add()">+</button>
+<br/>
+<span Id="result">O</span>
+<script>
+
+var add=function(){
+     var o1=document.getElementById("o1").value;
+     var o2=document.getElementById("o2").value;
+     
+     document.getElementById("result").innerHTML=o1+o2;
+
+
+}
+     
+</script>
